@@ -42,10 +42,8 @@ function calculateAmount(e){
 
 
     let insurancePays = bill * percent;
-    console.log(insurancePays);
 
     let clientPays = bill - insurancePays;
-    console.log(clientPays);
 
     document.querySelector('#client').textContent = clientPays.toFixed(2);
     document.querySelector('#insur').textContent = insurancePays.toFixed(2);
