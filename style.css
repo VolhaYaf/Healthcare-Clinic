@@ -1,0 +1,127 @@
+body {
+    background-image: url(pic\ one.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    #container {
+        background-color:rgba(235, 241, 253, 0.589);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 400px;
+        height: 650px;
+        border-radius: 40px;
+        margin-top: 50px;
+        margin-left: 550px;
+        }
+    
+        form {
+            display: flex;
+            flex-direction: column;
+            font-family: 'Montserrat', sans-serif;;
+            margin: 20px;
+            padding: 20px;
+        }
+    
+        h1 {
+            margin: 20px;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            color: #1a2d4b;
+            align-self: center;
+        }
+
+        h2 {
+            margin: 10px;
+            font-family: 'Montserrat', sans-serif;
+            color: #1a2d4b;
+            align-self: center;
+        }
+
+        h3 {
+            margin-top: 40px;
+            margin-bottom: 10px;
+            font-family: 'Montserrat', sans-serif;
+            color: #1a2d4b;
+            align-self: center;
+        }
+
+        input {
+            font-family: 'Montserrat', sans-serif;
+            padding: 10px;
+            border-radius: 7px;
+            border: none;
+            background-color:#9cb7fbb1;
+            width: 250px;
+            color: #1a2d4b;
+        }
+    
+        #insurance {
+            background-color:#9cb7fbb1;
+            border: none;
+            border-radius: 7px;
+            padding: 10px;
+            font-family: 'Montserrat', sans-serif;
+            color: #1a2d4b;
+            }
+            
+            #btn {
+            background-color:  #1a2d4b;
+            color: white;
+            padding: 10px;
+            border-radius: 7px;
+            border: none;
+            margin-top: 10px;
+            font-family: 'Montserrat', sans-serif;
+            }
+    
+            #percent {
+                font-family: 'Montserrat', sans-serif;
+                display: none;
+                height: 30px;
+                border-radius: 7px;
+                border: none;
+                background-color:rgba(235, 241, 253, 0.589);
+            }
+    
+            #amountToPay {
+                display: flex;
+            }
+            
+            #clientPays, #insurancePays {
+                text-align: center;
+                margin: 10px;
+                width: 80px;
+                height: 100px;
+                font-family: 'Montserrat', sans-serif;
+                background-color: #1a2d4b;
+                color: white;
+                padding: 30px;
+                border-radius: 7px;
+                border: none;
+            }
+
+            h4 {
+                text-align: center;
+                margin: 0px;
+                margin-bottom: 15px;
+                font-family: 'Montserrat', sans-serif;
+                color: white;
+                font-size: 14px;
+            }
+    
+        
+@media all and (max-width: 950px){
+    #container {
+        margin-left: 200px;
+        }
+}
+
+@media all and (max-width: 450px){
+    #container {
+        margin-left: 0px;
+        }
+}
